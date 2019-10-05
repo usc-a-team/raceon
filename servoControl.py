@@ -1,6 +1,6 @@
 from pwm import PWM
 import time
-pwm1 = PWM(0)
+pwm1 = PWM(1)
 pwm1.export()
 pwm1.period = 20000000
 # CENTER

@@ -1,6 +1,6 @@
 from pwm import PWM
 import time
-pwm0 = PWM(1)
+pwm0 = PWM(0)
 pwm0.export()
 pwm0.period = 20000000
 pwm0.duty_cycle = 1000000
